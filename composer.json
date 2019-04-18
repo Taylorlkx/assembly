@@ -1,0 +1,24 @@
+{
+    "name": "liuke/assembly",
+    "description": "news assembly",
+    "type": "project",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liukex",
+            "email": "17610393390@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "liuke\\assembly\\": "src/"
+        }
+    }
+}
