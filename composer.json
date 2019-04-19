@@ -18,7 +18,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "assembly\\": "src/"
+            "Assembly\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
         }
     }
 }
